@@ -4,8 +4,8 @@ from io import BytesIO
 from PIL import Image, ImageOps
 
 # --------- Config ---------
-INPUT_ROOT = r"/home/Mark/Projects/dmtools/unshared/huge/SKYRIM-scripted"
-OUTPUT_ROOT = r"/home/Mark/Projects/dmtools/unshared/huge/SKYRIM-scripted2"
+INPUT_ROOT = r"/home/Mark/Projects/battle-maps/toConvert"
+OUTPUT_ROOT = r"/home/Mark/Projects/battle-maps/converted"
 MAX_HEIGHT = 1920
 
 JPEG_QUALITIES = [95, 90, 85]   # highest -> lowest; we pick smallest output size among these
